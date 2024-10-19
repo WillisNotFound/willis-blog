@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>willis's blog</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div style="background-color:#F1F1F1;">
+        <div style="text-align:center; padding:40px; font-size:16px;">
+            <img src="avatar.png" alt="avatar" width="80px" height="80px" />
+            <P>Android、Web 无限进步中 · · ·</P>
+        </div>
+
+        <div style="background-color:#FFFFFF;text-align:start; padding:20px;">
+            <p id="content"></p>
+        </div>
+
+        <div style="text-align:center; padding:40px; font-size:16px;">
+            <a href="https://www.baidu.com">我的网站</a>
+        </div>
+        
+        <script>
+            document.getElementById("content").textContent = getContent()
+        </script>
+    </div>
+</body>
+
+</html>
